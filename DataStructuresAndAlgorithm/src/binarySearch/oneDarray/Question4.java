@@ -11,7 +11,7 @@ public class Question4 {
 
 	public static void main(String[] args) {
 		int arr[] = {3, 4, 4, 7, 8, 10};
-		int target = 8;
+		int target = 9;
 
 		Map<Integer,Integer> pos = insertPosition(arr, 0, arr.length - 1, target);
 		System.out.println(pos);
